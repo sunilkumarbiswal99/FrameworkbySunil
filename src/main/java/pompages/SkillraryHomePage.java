@@ -10,7 +10,7 @@ public class SkillraryHomePage {
 	//Declaration
 	@FindBy(xpath = "//img[@alt='SkillRary']")
 	private WebElement logo;
-	@FindBy(name = "q")
+	@FindBy(xpath = "//input[@placeholder='Search for Courses']")
 	private WebElement search_TF;
 	@FindBy(xpath = "//input[@value='go']")
 	private WebElement search_Button;
